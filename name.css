@@ -1,0 +1,21 @@
+/*font-family: 'Diplomata SC', cursive;
+font-family: 'Baloo Bhaina', cursive;
+font-family: 'Jim Nightshade', cursive;*/
+
+h1{
+font-family:'Jim Nightshade',cursive;
+font-size:40pt;
+}
+h4{font-family:'Baloo Bhaina',cursive;
+font-size:25pt;
+}
+span{
+border-style: solid;
+border-color: red;
+border-size: 10pt;
+
+}
+.last{
+color: blue;
+
+}
