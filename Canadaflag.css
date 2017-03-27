@@ -1,0 +1,24 @@
+.flag {
+  height:150px;
+  width:200px;
+  display: inline-block;
+}
+.center {
+  margin:auto;
+}
+.red{
+  background-color:#d3081c;
+
+
+}
+.maple{
+
+  background-image: url(http://www.canadianaconnection.com/wp-content/uploads/2009/10/Picture-152.png);
+  background-size:50px 50px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.size div{
+height: 30%;
+width: 100;
+}

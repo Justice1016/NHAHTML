@@ -1,0 +1,73 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+
+<html>
+
+   <head>
+      <title>Two Dice Roll</title>
+      <meta http-equiv="generator" content="PHP Designer 2006 - BETA" />
+      <link rel="stylesheet" href="dice.css" type="text/css" />
+      <script type="text/javascript" src="dice.js"></script>
+   </head>
+
+   <body>
+<table
+        align=left
+>
+<tr>
+        <th colspan=3>Two Dice Roll</th>
+</tr>
+<tr>
+         <td class=die><img id=die1 src=die1.png onclick=Roll_Dice_1();></td>
+         <td class=die><img id=die2 src=die2.png onclick=Roll_Dice_2();></td>
+         <td class=button>
+         <button
+                name=btnStop
+                id=btnStop
+                onclick=Stop_Dice();
+        >
+                Roll<br/>
+                Dice
+        </button>
+        </td>
+</tr>
+<tr>
+         <th>Die 1</td>
+         <th>Die 2</td>
+         <th>Total</td>
+</tr>
+<tr>
+         <td class=result id=result1>0</td>
+         <td class=result id=result2>0</td>
+         <td class=result id=resultTotal>0</td>
+</tr>
+</table>
+
+<table
+        id=resultTable
+>
+  <thead>
+    <tr>
+        <th colspan=3>
+                Dice Roll Results
+        </th>
+    </tr>
+    <tr>
+        <th>
+                Die 1
+        </th>
+        <th>
+                Die 2
+        </th>
+        <th>
+                Total
+        </th>
+    </tr>
+  </thead
+  <tbody
+        id=resultBody
+  >
+  </tbody>
+</table
+
+   </body>
+</html>
